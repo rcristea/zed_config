@@ -1,0 +1,156 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "proxy": "",
+  "tabs": {
+    "git_status": false
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_name": true,
+    "show_branch_status_icon": false
+  },
+  "status_bar": {
+    "line_endings_button": true,
+    "show_active_file": false
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "default_config_options": {
+        "effort": "max"
+      },
+      "type": "registry"
+    }
+  },
+  "disable_ai": false,
+  "git_panel": {
+    "tree_view": true
+  },
+  "diff_view_style": "unified",
+  "format_on_save": "off",
+  "autosave": "on_focus_change",
+  "ui_font_family": ".ZedSans",
+  "buffer_line_height": "comfortable",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "terminal": {
+    "bell": "system",
+    "env": {
+      "FIG_NEW_SESSION": "\"1\"",
+    },
+  },
+  "project_panel": {
+    "button": true,
+    "dock": "right",
+    "auto_fold_dirs": false,
+  },
+  "agent": {
+    "play_sound_when_agent_done": "always",
+    "notify_when_agent_waiting": "all_screens",
+    "enabled": true,
+    "button": true,
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "minimap": {
+    "thumb": "always",
+  },
+  "buffer_font_family": "Fira Code",
+  "tab_size": 2,
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)",
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 15.0,
+  "buffer_font_size": 13.0,
+  "theme": {
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "One Dark",
+  },
+  "theme_overrides": {
+    "One Dark": {
+      "border": "#000000FF",
+      "border.variant": "#000000FF",
+      "border.focused": "#212121FF",
+      "border.selected": "#FFFFFFFF",
+      "elevated_surface.background": "#131313FF",
+      "surface.background": "#131313FF",
+      "background": "#131313FF",
+      "text.accent": "#74ADE8FF",
+      "icon.accent": "#74ADE8FF",
+      "status_bar.background": "#131313FF",
+      "title_bar.background": "#131313FF",
+      "toolbar.background": "#131313FF",
+      "tab_bar.background": "#131313FF",
+      "tab.inactive_background": "#131313FF",
+      "tab.active_background": "#131313FF",
+      "panel.background": "#131313FF",
+      "panel.focused_border": "#212121FF",
+      "pane.focused_border": "#212121FF",
+      "scrollbar.thumb.hover_background": "#454545FF",
+      "scrollbar.thumb.border": "#474747FF",
+      "editor.foreground": "#FFFFFFFF",
+      "editor.background": "#131313FF",
+      "editor.gutter.background": "#131313FF",
+      "editor.subheader.background": "#131313FF",
+      "editor.active_line.background": "#1F1F1FBF",
+      "editor.highlighted_line.background": "#131313FF",
+      "editor.line_number": "#404040FF",
+      "editor.hover_line_number": "#FFFFFFFF",
+      "link_text.hover": "#74ADE8FF",
+      "syntax": {
+        "boolean": {
+          "color": "#FFFFFFFF",
+        },
+        "constant": {
+          "color": "#BFBFBFFF",
+        },
+        "keyword": {
+          "color": "#D780FFFF",
+        },
+        "number": {
+          "color": "#FFF5EBFF",
+        },
+        "operator": {
+          "color": "#FFFFFFFF",
+        },
+        "property": {
+          "color": "#FFFFFFFF",
+        },
+        "punctuation.list_marker": {
+          "color": "#D780FFFF",
+        },
+        "punctuation.markup": {
+          "color": "#D780FFFF",
+        },
+        "punctuation.special": {
+          "color": "#D780FFFF",
+        },
+        "string": {
+          "color": "#B3B3B3FF",
+        },
+        "title": {
+          "color": "#D780FFFF",
+        },
+        "type": {
+          "color": "#55A0E0FF",
+        },
+      },
+      "panel.overlay_background": "#131313FF",
+      "panel.overlay_hover": "#131313FF",
+      "minimap.thumb.hover_background": "#454545FF",
+      "minimap.thumb.border": "#474747FF",
+    },
+  },
+}
