@@ -80,8 +80,8 @@
   },
   "theme_overrides": {
     "One Dark": {
-      "border": "#000000FF",
-      "border.variant": "#000000FF",
+      "border": "#1E1E1EFF",
+      "border.variant": "#1E1E1EFF",
       "border.focused": "#212121FF",
       "border.selected": "#FFFFFFFF",
       "elevated_surface.background": "#131313FF",
@@ -147,6 +147,7 @@
           "color": "#55A0E0FF",
         },
       },
+      "terminal.background": "#131313FF",
       "panel.overlay_background": "#131313FF",
       "panel.overlay_hover": "#131313FF",
       "minimap.thumb.hover_background": "#454545FF",
